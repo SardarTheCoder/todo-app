@@ -17,15 +17,14 @@ function App() {
   const toggleTask = (id) => {
     setTasks(
       tasks.map((task) =>
-        task.id === id ? { ...task, 
-          completed: !task.completed } : task
+        task.id === id ? { ...task,  completed: !task.completed } : task
       )
     );
   };
 
   return (
     <div style={{ maxWidth: "400px", margin: "40px auto" }}>
-      <h2>To-Do App</h2>
+      <h2 style={{textAlign:"center"}}>To-Do App</h2>
       <AddTask onAdd={addTask} />
       <TaskList tasks={tasks} onToggle={toggleTask} />
     </div>
