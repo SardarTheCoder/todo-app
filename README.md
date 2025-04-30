@@ -1,8 +1,8 @@
  # React To-Do List App
 This is a simple and clean To-Do List application built with **React (JavaScript)**. It allows users to:
 
--  Add new tasks
--  Mark tasks as complete
+-  Add new tasks with name.
+-  Mark tasks as complete by checkbox selection.
 
 
 This project contain:
@@ -35,6 +35,9 @@ cd todo-app
  npm install
             then
                  npm start
+
+
+                 
 
 
 ## Tech Stack
